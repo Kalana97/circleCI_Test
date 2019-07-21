@@ -1,0 +1,10 @@
+
+## Customize dependencies
+dependencies:
+  pre:
+    -pip install -U selenium
+
+## Running Tests
+test:
+   override:
+    - python test_circleCI.py
